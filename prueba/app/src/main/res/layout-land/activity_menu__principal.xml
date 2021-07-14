@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.untels.oyevecino.Menu_Principal">
+
+    <!--Contenedor Superior-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_circle"
+            android:drawableBottom="@drawable/settings_25px"
+            android:paddingBottom="14dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/alpaca" />
+
+
+    </LinearLayout>
+    <!--Contenedor Medio-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:background="#202732">
+        <!--Contenedor Horizontal para botones-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:background="#202732"
+            android:orientation="horizontal"
+            android:padding="2mm">
+
+            <Button
+                android:id="@+id/btnVer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/button_rounded"
+                android:drawableLeft="@drawable/ver"
+                android:paddingLeft="10dp"
+                android:text="VER PUBLICACIONES"
+                android:textSize="18sp"></Button>
+
+            <Button
+                android:id="@+id/btnPublicar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/button_yellow"
+                android:drawableLeft="@drawable/publicar"
+                android:paddingLeft="8dp"
+                android:text="PUBLICAR"
+                android:textSize="20dp"></Button>
+        </LinearLayout>
+    </LinearLayout>
+    <!--Contenedor Inferior-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:background="#202732">
+        <!--Contenedor Horizontal para botones-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:background="#202732"
+            android:orientation="horizontal"
+            android:padding="2mm">
+
+            <Button
+                android:id="@+id/btnEmergencia"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/button_red"
+                android:drawableLeft="@drawable/emergencia"
+                android:paddingLeft="8dp"
+                android:text="EMERGENCIA"
+                android:textIsSelectable="false"
+                android:textSize="20dp"></Button>
+
+            <Button
+                android:id="@+id/btnAtras"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/button_blue"
+                android:drawableLeft="@drawable/atras"
+                android:paddingLeft="8dp"
+                android:text="VOLVER A LOGIN"
+                android:textSize="18sp"></Button>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

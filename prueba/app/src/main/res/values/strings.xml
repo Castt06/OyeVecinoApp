@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">oyeVecino</string>
+    <string name="txtNombre">Jhon Doe</string>
+    <string name="txtUbicacion">Lima, Peru</string>
+</resources>

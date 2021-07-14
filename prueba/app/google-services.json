@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "210632469697",
+    "project_id": "oyevecino-0602",
+    "storage_bucket": "oyevecino-0602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210632469697:android:31d89eccdebe19dea0b840",
+        "android_client_info": {
+          "package_name": "com.untels.oyevecino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210632469697-kisefd5m3mvu5llqjl4pqscj62u5v96f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFG_vBeQrEYqgrgK0lWl3mNBKaruEjnbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210632469697-kisefd5m3mvu5llqjl4pqscj62u5v96f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

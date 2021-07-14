@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.untels.oyevecino">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_vocina"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_vocina_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Menu_Admin"></activity>
+        <activity android:name=".restablecerContra" />
+        <activity android:name=".OlvidoContra" />
+        <activity android:name=".ActivityPublicar" />
+        <activity android:name=".ActivityHospitales" />
+        <activity android:name=".ActivityWebTwitter" />
+        <activity android:name=".ActivityWebInstagram" />
+        <activity android:name=".ActivityWeb" />
+        <activity android:name=".Menu_Settings" />
+        <activity android:name=".Menu_Categorias" />
+        <activity android:name=".menu_registro" />
+        <activity android:name=".Menu_Principal" />
+        <activity android:name=".ActivityLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#202732"
+    tools:context="com.untels.oyevecino.Menu_Categorias">
+
+    <TextView
+        android:id="@+id/tvTitleCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categorias"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnOP1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/button_rounded_borde"
+                android:drawableLeft="@drawable/hospital"
+                android:paddingLeft="5dp"
+                android:text="Hospitales" />
+
+            <Button
+                android:id="@+id/btnOP2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/button_rounded_borde"
+                android:drawableLeft="@drawable/autobus_escolar"
+                android:paddingLeft="5dp"
+                android:text="Transito" />
+
+            <Button
+                android:id="@+id/btnOP3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/button_rounded_borde"
+                android:drawableLeft="@drawable/establecimiento"
+                android:paddingLeft="5dp"
+                android:text="Establecimientos" />
+
+            <Button
+                android:id="@+id/btnOP4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/button_rounded_borde"
+                android:drawableLeft="@drawable/area_publica"
+                android:paddingLeft="5dp"
+                android:text="Areas Pùblicas" />
+
+            <Button
+                android:id="@+id/btnOP5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/button_rounded_borde"
+                android:drawableLeft="@drawable/limpieza"
+                android:paddingLeft="5dp"
+                android:text="Limpieza Pùblica" />
+
+            <Button
+                android:id="@+id/btnOP6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/button_rounded_borde"
+                android:drawableLeft="@drawable/recojo_municipal"
+                android:paddingLeft="5dp"
+                android:text="Recogo Municipal" />
+
+            <Button
+                android:id="@+id/btnOP7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/button_rounded_borde"
+                android:drawableLeft="@drawable/seguridad"
+                android:paddingLeft="5dp"
+                android:text="Seguridad" />
+            <Button
+                android:id="@+id/btnVolber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/button_red"
+                android:text="Volver" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
